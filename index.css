@@ -1,0 +1,48 @@
+.selectItem {
+    border: 0px solid black;
+    width: auto;
+    height: 2em;
+    line-height: 2.5em;
+    text-align: center;
+    background-color: #9eb3be;
+    display: inline;
+    padding: 0em 2em 0.5em;
+    float: left;
+    color: #3c3c3e;
+    cursor: pointer;
+}
+.selectItem.selected {
+    background-color: #6eb4ef;
+    color: white;
+}
+.or {
+position: relative;
+float: left;
+width: 0.3em;
+height: 2.5em;
+z-index: 3;
+color: #555;
+}
+.or::before {
+    position: absolute;
+    text-align: center;
+    border-radius: 500rem;
+    content: 'or';
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    text-shadow: none;
+    margin-top: -0.9em;
+    margin-left: -0.9em;
+    width: 1.7em;
+    height: 1.7em;
+    line-height: 1.7em;
+    font-style: normal;
+    font-weight: 700;
+    box-shadow: 0 0 0 1px transparent inset;
+}
+
+
+#myvalues {
+    width: 200px;
+}
